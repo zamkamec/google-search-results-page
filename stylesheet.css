@@ -1,0 +1,71 @@
+header {
+  border-style: hidden hidden solid hidden;
+  padding-bottom: 10px;
+  border-width: 1px;
+  border-color: lightgray;
+  height: 112px;
+  }
+#stick {
+
+  }
+#logo {
+  width: 90px;
+  height: auto;
+  float: left;
+  margin: 30px 20px;
+  }
+
+#searchbar {
+  background-color: transparent;
+  border-radius: 25px;
+  border: 1px darkgrey solid;
+  width: 650px;
+  height: 40px;
+  margin: 23px 20px;
+  }
+
+  #signIn {
+    background-color: #2b7de9;
+    font-family: Roboto;
+    color:white;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    float: right;
+    margin: 27px 20px;
+  }
+#navBar {
+ margin-left: 150px;
+ width: 650px;
+ height: 30px;
+}
+
+#navBar li {
+  margin: 20px 0px;
+  display: inline;
+  padding: 50px 10px;
+}
+
+#navBar li a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f6368;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+
+#navBarRight {
+  float: right;
+}
+
+.active{
+  border-style: hidden hidden solid hidden;
+  padding: 0px 5px;
+  padding-bottom: 10px;
+  border-width: 5px;
+  border-color: blue;
+}
