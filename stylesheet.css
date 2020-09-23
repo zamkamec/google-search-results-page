@@ -22,6 +22,7 @@ header {
   width: 650px;
   height: 40px;
   margin: 23px 20px;
+  padding-left: 15px;
   }
 
   #signIn {
@@ -68,4 +69,36 @@ header {
   padding-bottom: 10px;
   border-width: 5px;
   border-color: blue;
+}
+
+main{
+  padding-left: 155px;
+}
+
+#resultAmount {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  font-size: 13px;
+  color: #5f6368;
+}
+
+.resultLink {
+  font-size: 15px;
+  color: green;
+  padding: 10px 0px;
+}
+
+.resultTitle {
+  font-size: 20px;
+  color: blueviolet;
+  padding: 10px 0px;
+}
+
+.resultP {
+  font-size: 15px;
+  color: gray;
+  width: 650px;
+  height: 30px;
+  padding-bottom: 20px;
+  line-height: 20px;
 }
