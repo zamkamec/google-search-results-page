@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- 
+    page icons 
+    dropdown
+    -->
+    
     <title>build this page - Google Search</title>
     <link rel="shortcut icon" href="https://www.google.com/favicon.ico">
     <link rel="stylesheet" href="reset.css">
@@ -11,8 +16,11 @@
         <header>
             <div id="stick">
             <img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google Logo">
-            <form action=""><input id="searchbar" type="searchbar"> <a href="" id="signIn">Sign in</a> </form>
-            
+            <form action=""><input id="searchbar" type="searchbar"> 
+                <a href="" id="signIn">Sign in</a> </form>
+                <a title="Apps" href="#" id="apps"></a>
+                
+
 </div>
 
 <ul id="navBar">
@@ -55,19 +63,24 @@
                                                         <li>
 <ul  class="paaResult">
 <li id="paaTitle">
-People also ask
+    <p> People also ask </p>
 </li>
 <li>
-How can I create my own webpage?
+<a id="paaOne"> How can I create my own webpage?</a>
+<p id="paaOneOne">Rest of the text</p>
+
 </li>
 <li>
-What does it cost to build a Web page?
+    <p id="paaTwo"> What does it cost to build a Web page?</p>
+<p id="paaTwoOne">Rest of the text</p>
 </li>
 <li>
-What is the cheapest way to build a website?
+    <p id="paaThree"> What is the cheapest way to build a website?</p>
+<p id="paaThreeOne">Rest of the text</p>
 </li>
 <li>
-How much should I pay someone to build a website?
+    <p id="paaFour"> How much should I pay someone to build a website?</p>
+<p id="paaFourOne">Rest of the text</p>
 </li>
 </ul>
                                                         </li>
@@ -126,35 +139,38 @@ How much should I pay someone to build a website?
 <ul class="srwResult">
     <li>
     <ul id="srwLeft">
-    <li><a href="">how to build a website from scratch</a></li>
-    <li><a href="">build a website free</a></li>
-    <li><a href="">how to build a website from scratch html</a></li>
-    <li><a href="">github</a></li>
+    <li><a href=""><b>how to </b>build <b>a website from scratch</b></a></li>
+    <li><a href=""><b>build a website free</b></a></li>
+    <li><a href=""><b>how to build a website from scratch html</b></a></li>
+    <li><a href=""><b>github</b></a></li>
     </ul>
     </li>
     <li>
     <ul id="srwRight">
-    <li><a href="">build a website in a day</a></li>
-    <li><a href="">project on website development</a></li>
-    <li><a href="">web project</a></li>
-    <li><a href="">css only website</a></li>
+    <li><a href="">build <b>a website in a day</b></a></li>
+    <li><a href=""><b>project on website development</b></a></li>
+    <li><a href=""><b>web project</b></a></li>
+    <li><a href=""><b>css only website</b></a></li>
     </ul>
     </li>
 </ul>
 </li>
 <li>
+    
 <ul id="pageSelector">
-    <li><a href="" id="pageNum">1</a></li>
-    <li><a href="" id="pageNum">2</a></li>
-    <li><a href="" id="pageNum">3</a></li>
-    <li><a href="" id="pageNum">4</a></li>
-    <li><a href="" id="pageNum">5</a></li>
-    <li><a href="" id="pageNum">6</a></li>
-    <li><a href="" id="pageNum">7</a></li>
-    <li><a href="" id="pageNum">8</a></li>
-    <li><a href="" id="pageNum">9</a></li>
-    <li><a href="" id="pageNum">10</a></li>
-    <li><a href="" id="pageNum">Next</a></li>
+    <li><span title="pageStart" id="pageStart"></span ></li>
+    <li class="pageNum"><span title="Page 1" href="#" id="pageCurrent"></span></li>
+    <li><a href="" class="pageNum"><span title="Page 2" href="#" id="pageOther"></span></a></li>
+    <li><a href="" class="pageNum"><span title="Page 3" href="#" id="pageOther"></span></a></li>
+    <li><a href="" class="pageNum"><span title="Page 4" href="#" id="pageOther"></span></a></li>
+    <li><a href="" class="pageNum"><span title="Page 5" href="#" id="pageOther"></span></a></li>
+    <li><a href="" class="pageNum"><span title="Page 6" href="#" id="pageOther"></span></a></li>
+    <li><a href="" class="pageNum"><span title="Page 7" href="#" id="pageOther"></span></a></li>
+    <li><a href="" class="pageNum"><span title="Page 8" href="#" id="pageOther"></span></a></li>
+    <li><a href="" class="pageNum"><span title="Page 9" href="#" id="pageOther"></span></a></li>
+    <li><a href="" class="pageNum"><span title="Page 10" href="#" id="pageOther"></span></a></li>
+    <li><span id="pageEnd"></span ></li>
+    <li><a href="" id="pageNum"><span title="Page Next" href="#" id="pageNext"></span></a></li>
 </ul>
 </li>
 </ul>

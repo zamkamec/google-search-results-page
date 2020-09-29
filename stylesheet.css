@@ -28,11 +28,23 @@ header {
   padding-left: 15px;
   }
 
-  #searchbar:hover {
+#searchbar:hover {
     box-shadow: 0px 1px 3px 1px rgb(218, 218, 218);
     }
 
-  #signIn {
+#apps {
+      display: block;
+      float: right;
+      margin-top: 0px;
+      width: 32px;
+      height: 32px;
+      text-decoration: none;
+      border: none;
+      outline: none;
+      margin-top: -60px;
+     background: url(/google-search-results-page/Assets/i1_1967ca6a.png) -130px -36px;
+      }
+#signIn {
     background-color: #2b7de9;
     font-family: Roboto;
     color:white;
@@ -74,7 +86,7 @@ header {
   padding: 0px 5px;
   padding-bottom: 10px;
   border-width: 5px;
-  border-color: blue;
+  border-color: #2b7de9;
 }
 
 main{
@@ -83,6 +95,10 @@ main{
 
 h3{
   margin: 15px 0px;
+}
+
+b{
+  font-weight: bold;
 }
 
 #resultAmount {
@@ -95,15 +111,16 @@ h3{
 .resultLink {
   font-size: 13px;
   color: green;
-  pmargin: 30px 0px;
+  margin: 30px 0px;
   text-decoration: none;
 }
 
 .resultTitle {
   font-size: 20px;
-  color: blueviolet;
-  margin: 10px 0px;
+  color: #1a0dab;
+  margin-top: 10px;
   text-decoration: none;
+  font-family: arial,sans-serif;
 }
 
 .resultTitle:hover {
@@ -112,11 +129,12 @@ h3{
 
 .resultP {
   font-size: 15px;
-  color: gray;
+  color: #4d5156;
   width: 650px;
   height: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   line-height: 20px;
+  font-family: arial,sans-serif;
 }
 
 .paaResult {
@@ -130,9 +148,30 @@ h3{
   padding: 10px 20px;
  }
 
- .paaTitle {
-  font-size: x-large;
-  border-top: none;
+ #paaTitle{
+  border: none;
+}
+
+ #paaTitle p {
+  font-size: 20px;
+}
+
+
+#paaOneOne {
+  display: none;
+}
+#paaOne:active paaOneOne {
+  display: block;
+}
+
+#paaTwoOne {
+  display: none;
+}
+#paaThreeOne {
+  display: none;
+}
+#paaFourOne {
+  display: none;
 }
 
  .srwResult {
@@ -149,11 +188,13 @@ h3{
   font-size: 10px;
   color: #1a0dab;
   font-size: 14px;
+  font-family: arial,sans-serif;
  }
  #srwTitle  {
   font-size: 20px;
   padding-top: 20px;
   padding-bottom: 10px;
+  font-family: arial,sans-serif;
     }
 
  #srwLeft  {
@@ -172,22 +213,97 @@ display: inline;
   #srwRight a {
     text-decoration: none;
   }
+
   #pageSelector{
     margin-left: 250px;
-    display: inline;
+    height: 200px;
   }
 
   #pageSelector li {
-    margin: 0px 5px;
     display: inline;
   }
-  #pageNum {
+
+  .pageNum {
     text-decoration: none;
+    text-align: center;
+  }
+  .pageNum p{
+    text-decoration: none;
+    text-align: center;
+    margin-left: 15px;
   }
 
-  #pageNum:hover {
+  .pageNum p:hover {
     text-decoration: underline;
   }
+  #pageStart {
+    display: inline-block;
+    margin-top: 0px;
+    width: 23px;
+    height: 32px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: url(/google-search-results-page/Assets/i1_1967ca6a.png) -0px -32px;
+  }
+  #pageCurrent {
+    display: inline-block;
+    margin-top: 0px;
+    width: 16px;
+    height: 32px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: url(/google-search-results-page/Assets/i1_1967ca6a.png) -24px -32px;
+    padding-bottom: 1px;
+  }
+  #pageOther {
+    display: inline-block;
+    margin-top: 0px;
+    width: 16px;
+    height: 32px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: url(/google-search-results-page/Assets/i1_1967ca6a.png) -40px -32px;
+    padding-bottom: 1px;
+  }
+  #pageEnd {
+    display: inline-block;
+    margin-top: 0px;
+    width: 40px;
+    height: 34px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: url(/google-search-results-page/Assets/i1_1967ca6a.png) -56px -32px;
+    margin-top: 30px;
+  }
+  #pageNext {
+    display: inline-block;
+    margin-top: 0px;
+    width: 40px;
+    height: 20px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: url(/google-search-results-page/Assets/i1_1967ca6a.png) -192px -25px;
+  }
+    /*
+  #pageOne {
+    text-decoration: none;
+    width: 32px;
+    height: 32px;
+    width: 32px;
+    height: 32px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: url(/google-search-results-page/Assets/i1_1967ca6a.png) -96px -32px;
+  }
+
+
+*/
 
 footer{
   background-color: #F2F2F2;
